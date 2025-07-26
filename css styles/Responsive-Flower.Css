@@ -1,0 +1,297 @@
+.navbar{
+display: flex;
+justify-content: space-between;
+max-width: 1140px;
+margin: 0 auto;
+align-items: center;
+
+
+/* shared-style */
+.black-color{
+  color: #252432;
+}
+
+.gray-color{
+  color: #8987A1;
+}
+
+.color-orange{
+color: #E95A08;
+}
+
+}
+.list-item{
+    list-style: none;
+  
+}
+.item{
+   display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.item-2{
+
+   display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.cart-icon{
+  display: flex;
+  align-items: center;
+ 
+}
+
+/* banner item start */
+
+.sector-tow{
+max-width: 1140px;
+gap: 170px;
+margin: 0 auto;
+display: flex;
+padding: 50px ;
+}
+
+.font-large{
+  font-size: 50px;
+
+}
+
+.font-Small{
+font-size: 20px;
+}
+.hero-text{
+  font-size: 13px;
+  width: 570px;
+  padding-top: 150px;
+  
+}
+
+
+.hero-flower{
+ width: 500px;
+ height: 300px;
+ padding-top: 150px
+}
+
+/* text-color */
+
+.color-p{
+  color: #8987A1;
+}
+.color-h{
+  color: #E95A08;
+}
+/* our plants section style */
+.plants{
+  max-width: 1140px;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.plant-h{
+font-size: 50px;
+}
+.plant-p{
+font-size: 20px;
+color: #8987A1;
+
+}
+
+/* plant flower cart */
+
+
+.flower-cart{
+  border: 2px solid pink;
+  max-width: 1140px;
+  margin: 0 auto;
+ 
+}
+
+.middle-text{
+  padding-left: 80px;
+}
+
+
+
+.button-cart{
+  background-color: #E95A08;
+  color: white;
+    padding: 10px 90px 10px;
+    border: 0px;
+}
+
+
+.Card-flex{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 2, 1fr;
+     max-width: 1140px;
+   margin: 0 auto;
+  
+}
+ 
+/* Flower & Plants Lover */
+ 
+
+.plant-lover-title{
+    display:flex;
+    max-width: 1140px;
+    margin: 0 auto;
+     gap: 50px;
+    margin-top: 200px;
+  }
+  .section-title{
+    font-size: 50px; 
+  }
+  
+.line-gap{
+  font-size: 50px;
+  gap: 20px;
+  color: #8987A1;
+}
+
+/* Trusted badge */
+ .plant-lover-trusted-badge{
+    margin-top: -750px;
+    margin-left: 350px;
+    
+
+    }
+   /* our deal styles */
+   .deals{
+       padding-top: 500px;
+       text-align: center;
+   }
+  .orange{
+   color: #E95A08;
+  }
+
+  .light-grey{
+    color: #8987A1;
+    font-size: 25px;
+  }
+
+/* Box Modle */
+
+.box-model{
+  
+  max-width: 1140px;
+  margin: 0 auto;
+ 
+}
+.image-options{
+display: flex;
+}
+.images{
+
+}
+
+.image-1{
+        background-image: url(../assets/deal-bloom.png);
+        height: 200px;
+        width: 300px;
+        border-radius: 14px;
+        color: white;
+        font-weight: 500;
+        text-align: center;
+         filter:brightness(70%);
+        
+        
+    }
+    .image-2{
+        background-image: url(../assets/deal-ana.png);
+        height: 180px;
+        width: 300px;
+        border-radius: 14px;
+        color: white;
+        font-weight: 500;
+        text-align: center;
+         filter:brightness(70%);
+    }
+    .image-3{
+        background-image: url(../assets/deal-zabo.png);
+        height: 400px;
+        width: 600px;
+        color: white;
+        font-weight: 500;
+        text-align: center;
+        align-items: center;
+        border-radius: 20px;
+        filter:brightness(70%);
+    }
+    .images{
+        gap: 500px;
+    }
+    .image-options{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width:576px){
+  .navbar,.item {
+   flex-direction: row;
+
+  }
+  
+  .item-2{
+    display: none;
+    /* flex-direction: row; */
+
+  }
+  .sector-tow{
+    flex-direction: column;
+  }
+ 
+  .sector-tow{
+    flex-direction: column-reverse;
+    padding: 0;
+    gap: 10px;
+    margin: 0;
+  }
+  .hero-text, .hero-flower{
+    padding: 0;
+    margin: 0 auto;
+    
+  }
+   .hero-text{
+    padding: 0;
+    margin: 0 auto;
+   }
+   .color-p{
+    margin: 0;
+   }
+
+   /* Ourplant section */
+   .Card-flex{
+     flex-direction: column;
+    grid-template-columns: repeat(2, 1fr)
+   }
+   
+   .plant-lover-title{
+        flex-direction: column;
+    }
+    .plant-lover-trusted-badge{
+        display: none;
+    }
+    .deals{
+    padding-top:0;
+
+    }
